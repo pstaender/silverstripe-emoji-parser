@@ -45,6 +45,10 @@ You can optionally configure these values in your `config.yml`:
     cssClass: classNameForCSS
 ```
 
+# TODO
+
+Implement alternate unicode characters.
+
 # Original Project and License
 
 The images are taken from [Emoji-Cheat-Sheet.com](https://github.com/arvida/emoji-cheat-sheet.com) and are under different [Licenses](https://github.com/arvida/emoji-cheat-sheet.com/blob/master/LICENSE).

@@ -11,7 +11,7 @@ class Emojis extends TextParser {
     $cssClass = ($this->config()->get('cssClass')) ? $this->config()->get('cssClass') : 'emoji';
     $s = $this->content;
     foreach(explode(',',self::$emojis) as $emoji) {
-       $s = str_replace(':'.$emoji.':', '<img src="'.$basePath.$emoji.'.png" class="'.$cssClass.'" />', $s);
+       $s = str_replace(':'.$emoji.':', '<img src="'.$basePath.$emoji.'.png" alt=":'.$emoji.':" title="'.$emoji.'" class="'.$cssClass.'" />', $s);
     }
     return $s;
   }
