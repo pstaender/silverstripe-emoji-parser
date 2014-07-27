@@ -4,7 +4,7 @@ Render Emojis in your template, so that `:smile:` becomes :smile:
 
 # Usage
 
-Copy or clone the module folder to your project folder (composer support may follow soon) and flush your cache with `?flush=1`. Please ensure that the module is named `silverstripe-emoji-parser`, otherwise the path of the pictures won't work.
+Copy or clone the module folder to your project folder (composer support may follow soon) and flush your cache with `?flush=1`.
 
 In your templates you can parse now Emoji icons with:
 
@@ -25,8 +25,6 @@ All rendered icon-image-tags contain the class `emoji` so that you can easily de
 ```css
    img.emoji {
      height: 1em;
-     width: auto;
-     display: inline;
      margin: 0 1em 0 1em;
    }
 ```
