@@ -1,19 +1,25 @@
 # :star::star::star: Emoji Parser for SilverStripe :star::star::star:
 
-Render Emojis in your template, so that `:smile:` becomes :smile:
+Render Emojis in your template, so that a `:smile:` becomes a real :smile:
 
 # Usage
 
-Copy or clone the module folder to your project folder (composer support may follow soon) and flush your cache with `?flush=1`.
+Copy or clone the project to your SilverStripe instance folder or using composer:
 
-In your templates you can parse now Emoji icons with:
+```sh
+  composer require pstaender/silverstripe-emoji-parser dev-master
+```
+
+Wheny you're done flush SilverStripe cache with `?flush=1`.
+
+In your templates you can now parse Emojis with:
 
 ```html
   <h1>$Title</h1>
   $Content.Parse(Emoji)
 ```
 
-or of course in combination with other parsers:
+Of course also in combination with other parsers:
 
 ```html
   <h1>$Title</h1>

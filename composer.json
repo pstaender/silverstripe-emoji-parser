@@ -1,0 +1,17 @@
+{
+  "name": "pstaender/silverstripe-emoji-parser",
+  "description": "Emoji Parser for SilverStripe",
+  "type": "silverstripe-module",
+  "homepage": "https://github.com/pstaender/silverstripe-emoji-parser",
+  "keywords": ["silverstripe", "emoji", "parser"],
+  "license": "MIT License",
+  "authors": [
+    {"name": "Philipp Staender","email": "philipp.staender@gmail.com"}
+  ],
+  "support": {
+    "issues": "https://github.com/pstaender/silverstripe-emoji-parser/issues"
+  },
+  "require": {
+    "php": ">=5.2.0"
+  }
+}
