@@ -35,6 +35,26 @@ All rendered icon-image-tags contain the class `emoji` so that you can easily de
    }
 ```
 
+# JSON for clientside JavaScript usage
+
+You can access all emojis including the url to graphics by requesting `Emojis_Controller`:
+
+```
+  http://yourserver/Emojis_Controller/
+```
+
+and use the responded JSON:
+
+```json
+{
+
+    "100": "silverstripe-emoji-parser/graphics/emojis/100.png",
+    "-1": "silverstripe-emoji-parser/graphics/emojis/-1.png",
+    "+1": "silverstripe-emoji-parser/graphics/emojis/+1.png",
+    …
+}
+```
+
 # Optional configuration
 
 You can optionally configure these values in your `config.yml`:
