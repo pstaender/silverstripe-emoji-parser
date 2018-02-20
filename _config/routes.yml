@@ -1,0 +1,6 @@
+---
+Name: emojiroutes
+---
+SilverStripe\Control\Director:
+  rules:
+    'emojis': 'pstaender\Controllers\EmojisController'
