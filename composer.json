@@ -1,7 +1,7 @@
 {
   "name": "pstaender/silverstripe-emoji-parser",
   "description": "Emoji Parser for SilverStripe",
-  "type": "silverstripe-module",
+  "type": "silverstripe-vendormodule",
   "homepage": "https://github.com/pstaender/silverstripe-emoji-parser",
   "keywords": ["silverstripe", "emoji", "parser"],
   "license": "MIT License",
