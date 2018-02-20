@@ -1,0 +1,10 @@
+---
+Name: emojifieldtype
+After:
+  - '#corefieldtypes'
+---
+SilverStripe\Core\Injector\Injector:
+  HTMLText:
+    class: pstaender\Models\EmojiHTMLText
+  HTMLVarchar:
+    class: pstaender\Models\EmojiHTMLVarchar

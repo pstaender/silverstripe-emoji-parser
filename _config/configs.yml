@@ -1,0 +1,6 @@
+---
+Name: emoji
+---
+SilverStripe\Forms\HTMLEditor\HTMLEditorField:
+  extensions:
+    - pstaender\Extensions\HTMLEditorFieldExtension
