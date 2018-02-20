@@ -11,7 +11,13 @@
   "support": {
     "issues": "https://github.com/pstaender/silverstripe-emoji-parser/issues"
   },
+  "extra": {
+    "expose": [
+      "graphics/emojis"
+    ]
+  },
   "require": {
     "php": ">=5.2.0"
   }
+
 }
